@@ -1,0 +1,8 @@
+LLM Parameters Lab validation
+
+Project source was reviewed and the Python modules are syntactically valid.
+
+Validation note:
+- The complete pytest suite should be run in GitHub Actions after dependencies are installed.
+- The temperature demo uses a local/mock generator for teaching; it does not call an LLM.
+- api_demo.py is optional and requires OPENAI_API_KEY.
